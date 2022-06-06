@@ -4,13 +4,13 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = 14151343
+
+API_HASH = "9330f17086496c4580bdc8f8b24ec364"
 
 BOT_TOKEN = getenv("BOT_TOKEN")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = "mongodb+srv://keshavalpha:keshavalpha@cluster0.htiys.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
-SUDO_USER = list(
-    map(int, getenv("SUDO_USER", "").split())
-) 
+SUDO_USER = 1927705508
+ 
