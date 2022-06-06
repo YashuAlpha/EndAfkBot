@@ -14,5 +14,5 @@ MONGO_DB_URI = "mongodb+srv://keshavalpha:keshavalpha@cluster0.htiys.mongodb.net
 
 SUDO_USER = 1927705508
 
-ALPHA_PASSWORD = 
+ALPHA_PASSWORD = getenv("ALPHA_PASSWORD")
  
